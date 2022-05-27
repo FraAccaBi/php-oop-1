@@ -15,3 +15,9 @@ class Movie {
         $this->length = $_length;
     }
 }
+
+$matrix = new Movie('Matrix', 1990, "USA", 136);
+$meanGirls = new Movie('Mean Girls', 2004, "USA", 97);
+
+var_dump($matrix, $meanGirls);
+echo $meanGirls->title;
